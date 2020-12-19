@@ -1,0 +1,28 @@
+.header {
+  flex: 1;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 56px;
+  position: fixed;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.header__leftsection img {
+  width: 40px;
+}
+
+.header__leftsection {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 10px;
+  width: 320px;
+}
+
+.header__leftsection input{
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+}
